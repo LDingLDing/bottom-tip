@@ -1,0 +1,35 @@
+body {
+	position:relative;
+	font-family: 'Microsoft yahei';
+}
+
+
+.aloetip{
+	z-index: 10001;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px 0;
+	text-align: center;
+
+	color: #31708f;
+	background: #d9edf7;
+ 
+}
+.aloetip-info{
+	color: #31708f;
+	background: #d9edf7;
+}
+.aloetip-success{
+	color: #3c763d;
+	background: #dff0d8;	
+}
+.aloetip-warning{
+	color: #8a6d3b;
+	background: #fcf8e3;
+}
+.aloetip-danger{
+	color: #a94442;
+	background: #f2dede;
+}
